@@ -5,7 +5,7 @@ function App() {
   const now = new Date().toLocaleTimeString();
   const [time, getTime] = useState(now);
   console.log(time);
-
+  // setInterval(updateTime, 100000);
   function updateTime() {
     const newTime = new Date().toLocaleTimeString();
     getTime(newTime);

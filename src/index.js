@@ -16,6 +16,6 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 //e.g. uncomment the code below to see Hey printed every second.
 // function sayHi() {
-//   console.log("Hey");
+//   console.log("Heys");
 // }
-// setInterval(sayHi, 1000);
+// setInterval(updateTime, 1000);
